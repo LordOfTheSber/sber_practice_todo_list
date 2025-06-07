@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Layout, Menu, Space, Input, Modal, message, Card, Checkbox  } from 'antd';
-import '../App.css';
-import categoryService from '../services/categoryService';
-import taskService from '../services/taskService';
-import { setCurrentCategory, setCategoryNotFromList } from '../slices/categorySlice';
+import '../../app/App.css';
+import categoryService from '../../shared/api/categoryService';
+import taskService from '../../shared/api/taskService';
+import { setCurrentCategory, setCategoryNotFromList } from '../../entities/category/categorySlice';
 
-import LeftSider from "../components/LeftSider";
-import TaskList from "../components/TaskList";
+import LeftSider from "../LeftSider/LeftSider";
+import TaskList from "../TaskList/TaskList";
 
 
 const AppComponent = () => {

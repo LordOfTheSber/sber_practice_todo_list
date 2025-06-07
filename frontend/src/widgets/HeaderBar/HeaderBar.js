@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Input, Layout, Select, message } from 'antd';
-import LogoImage from "../img/LogoImageNew.png"
-import {  searchTasks, setSortType  } from '../slices/taskSlice';
+import LogoImage from "../../shared/assets/img/LogoImageNew.png";
+import {  searchTasks, setSortType  } from '../../entities/task/taskSlice';
 
 const { Header } = Layout;
 const { Option } = Select;

@@ -2,10 +2,10 @@ import './App.css';
 import {Layout} from "antd";
 import React, { useState } from 'react';
 import {Route, Routes} from "react-router-dom";
-import {MainPage} from "./pages/MainPage";
-import {NotFoundPage} from "./pages/NotFoundPage";
-import FooterBar from "./components/FooterBar";
-import HeaderBar from "./components/HeaderBar";
+import {MainPage} from "../pages/MainPage";
+import {NotFoundPage} from "../pages/NotFoundPage";
+import FooterBar from "../widgets/FooterBar/FooterBar";
+import HeaderBar from "../widgets/HeaderBar/HeaderBar";
 
 
 function App() {
@@ -26,4 +26,3 @@ function App() {
 }
 
 export default App;
-

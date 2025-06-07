@@ -1,6 +1,6 @@
 import axios from "axios";
-import { setTasks, setStatuses, setRepetitions, setPriorities } from "../slices/taskSlice";
-import { setCurrentCategory, setCategoryNotFromList } from '../slices/categorySlice';
+import { setTasks, setStatuses, setRepetitions, setPriorities } from "../../entities/task/taskSlice";
+import { setCurrentCategory, setCategoryNotFromList } from '../../entities/category/categorySlice';
 import authHeader from "./authHeader";
 import { notification } from "antd";
 import { API_URL_STARTER } from "./API_URL";

@@ -14,11 +14,11 @@ import {
   DeleteOutlined,
   EditOutlined,
 } from '@ant-design/icons';
-import authService from "../services/authService";
-import { login, logout } from "../slices/authSlice";
-import taskService from '../services/taskService';
-import { setTasks } from '../slices/taskSlice';
-import categoryService from '../services/categoryService';
+import authService from "../../shared/api/authService";
+import { login, logout } from "../../entities/auth/authSlice";
+import taskService from '../../shared/api/taskService';
+import { setTasks } from '../../entities/task/taskSlice';
+import categoryService from '../../shared/api/categoryService';
 
 
 const { Sider } = Layout;
