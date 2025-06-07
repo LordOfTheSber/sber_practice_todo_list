@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Layout, Card, Checkbox, Button, Input, Select, Form , DatePicker, message, Empty, Row, Tag, Modal } from 'antd';
-import '../App.css';
+import '../../app/App.css';
 import {
   EditOutlined,
   DownOutlined,
   UpOutlined,
 } from '@ant-design/icons';
-import taskService from '../services/taskService';
+import taskService from '../../shared/api/taskService';
 import dayjs from 'dayjs';
 
 

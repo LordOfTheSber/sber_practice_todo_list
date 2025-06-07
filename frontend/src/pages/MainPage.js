@@ -1,4 +1,4 @@
-import AppComponent from "../components/AppComponent";
+import AppComponent from "../widgets/AppComponent/AppComponent";
 
 export const MainPage = () => {
     return (

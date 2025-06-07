@@ -1,10 +1,10 @@
 import axios from "axios";
-import { setCategories, setCurrentCategory, setCategoryNotFromList, setIsCategoryForDeleteEmpty } from "../slices/categorySlice";
-import { setTasks, searchTasks } from "../slices/taskSlice";
+import { setCategories, setCurrentCategory, setCategoryNotFromList, setIsCategoryForDeleteEmpty } from "../../entities/category/categorySlice";
+import { setTasks, searchTasks } from "../../entities/task/taskSlice";
 import authHeader from "./authHeader";
 import { API_URL_STARTER } from "./API_URL";
 import { message } from "antd";
-import taskService from '../services/taskService';
+import taskService from './taskService';
 
 const API_URL = API_URL_STARTER + "categories";
 
